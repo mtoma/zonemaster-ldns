@@ -1,6 +1,9 @@
 #include "EXTERN.h"
 #include "perl.h"
 
+#define HAVE_EVP_MD_CTX_NEW 1
+#define HAVE_EVP_PKEY_BASE_ID 1
+
 /* Define if building universal (internal helper macro) */
 /* #undef AC_APPLE_UNIVERSAL_BUILD */
 
@@ -314,6 +317,8 @@
 
 /* Define this to enable ECDSA support. */
 #define USE_ECDSA 1
+#define HAVE_ECDSA_SIG_GET0 1
+
 
 /* Define this to enable GOST support. */
 /* #define USE_GOST 1 */

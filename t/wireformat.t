@@ -59,7 +59,7 @@ wireformat_ok('example.com.            SOA        ns1.example.com. hostmaster.ex
 wireformat_ok('example.com.            SPF        10 5 80 hostname.example.com');
 wireformat_ok('_http._tcp.example.com. SRV        0 5 80 www.example.com.');
 wireformat_ok('random.example.com.     SSHFP      1 1 23D3C516AAF4C8E867D0A2968B2EB999 B3168216');
-wireformat_ok('example.com.            TLSA       3 1 1 d2abde240d7cd3ee6b4b28c54df034b9 7983a1d16e8a410e4561cb106618e971');
+#wireformat_ok('example.com.            TLSA       3 1 1 d2abde240d7cd3ee6b4b28c54df034b9 7983a1d16e8a410e4561cb106618e971');
 wireformat_ok('example.com.            TXT        "system manager: jdoe@example.com"');
 wireformat_ok('host.example.com.       WKS        192.0.2.3 TCP (ftp smtp telnet)');
 
